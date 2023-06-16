@@ -12,6 +12,7 @@ class BankAccount {
     }
 
     public void deposit(double amount) {
+
         lock.writeLock().lock();
         try {
             balance += amount;
@@ -21,11 +22,15 @@ class BankAccount {
     }
 
     public void withdraw(double amount) {
-        lock.writeLock().lock();
-        try {
-            balance -= amount;
-        } finally {
-            lock.writeLock().unlock();
+        if (amount >= balance) {
+            lock.writeLock().lock();
+            try {
+                balance -= amount;
+            } finally {
+                lock.writeLock().unlock();
+            }
+        }else{
+            System.out.println("Not enough balance");
         }
     }
 

@@ -6,7 +6,7 @@ public class SharedList {
     private final ArrayList<Integer> list = new ArrayList<>();
     private boolean isOddThreadTurn = false;
     public synchronized void addEven(int evenNumber) throws InterruptedException {
-        while (isOddThreadTurn) {
+        if (isOddThreadTurn) {
             wait();
         }
         list.add(evenNumber);
@@ -14,7 +14,7 @@ public class SharedList {
         notify();
     }
     public synchronized void addOdd(int oddNumber) throws InterruptedException {
-        while (!isOddThreadTurn) {
+        if (!isOddThreadTurn) {
             wait();
         }
         list.add(oddNumber);

@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cfb5c46-30c9-4eeb-b4d6-f7468e6057a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q1/EvenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q1/OddThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q1/SharedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2/ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2/MobileBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q2/POS.java" afterDir="false" />
+    <list default="true" id="3cfb5c46-30c9-4eeb-b4d6-f7468e6057a8" name="Changes" comment="Implement main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q1/SharedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q1/SharedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Q2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q1.Main" />
@@ -92,11 +81,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682567695979</updated>
-      <workItem from="1682567697057" duration="1212000" />
+      <workItem from="1682567697057" duration="3572000" />
+      <workItem from="1683802730627" duration="17000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial git">
+      <created>1682482639287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482639287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement shared list">
+      <created>1682482712028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482712028</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement OddThread">
+      <created>1682482727354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482727354</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implement EvenThread">
+      <created>1682482738208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482738208</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement Main">
+      <created>1682482763062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482763062</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implement Bank account">
+      <created>1682482800341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482800341</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implement ATM">
+      <created>1682482810376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482810376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement mobile bank">
+      <created>1682482822660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482822660</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implement pos">
+      <created>1682482830430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482830430</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Implement main">
+      <created>1682482839457</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682482839457</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial git" />
+    <MESSAGE value="Implement shared list" />
+    <MESSAGE value="Implement OddThread" />
+    <MESSAGE value="Implement EvenThread" />
+    <MESSAGE value="Implement Main" />
+    <MESSAGE value="Implement Bank account" />
+    <MESSAGE value="Implement ATM" />
+    <MESSAGE value="Implement mobile bank" />
+    <MESSAGE value="Implement pos" />
+    <MESSAGE value="Implement main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement main" />
   </component>
 </project>

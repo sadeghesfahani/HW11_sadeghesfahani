@@ -10,12 +10,18 @@ public class Main {
         Thread mobileBank2 = new MobileBank(bankAccount);
 
         atm.start();
+        try {
+            atm.join();
+        }catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         pos.start();
         mobileBank1.start();
         mobileBank2.start();
 
         try {
-            atm.join();
+//            atm.join();
             pos.join();
             mobileBank1.join();
             mobileBank2.join();
